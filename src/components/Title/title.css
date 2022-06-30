@@ -1,0 +1,25 @@
+.dash{
+    background-color: #FFF;
+    width: 100px;
+    height: 10px;
+    margin-bottom: 20px;
+}
+
+.title{
+    font-size: 4.5em;
+    font-weight: 800;
+}
+
+@media screen and (max-width: 480px) {
+    .dash{
+        background-color: #FFF;
+        width: 58px;
+        height: 8px;
+        margin-bottom: 15px;
+    }
+    
+    .title{
+        font-size: 3em;
+        font-weight: 800;
+    }
+}
