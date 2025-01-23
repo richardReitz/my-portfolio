@@ -3,7 +3,7 @@ Portfolio desenvolvido com React JS, mostra um pouco do meu conhecimento e proje
 <br/><br/>
 
 # :computer: Deploy do Portfolio:
-  <a href="https://rr-portfolio.vercel.app/">Link</a>
+  <a href="https://richardreitz-portfolio.vercel.app/">Link do Portfólio</a>
 <br/><br/>
 
 # Tecnologias utilizadas:
