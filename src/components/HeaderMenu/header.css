@@ -1,4 +1,4 @@
-.header-view{
+.header-view {
     width: 100%;
     height: 100px;
     display: flex;
@@ -7,22 +7,22 @@
     flex-direction: row;
 }
 
-.logo img{
+.logo img {
     height: 100px;
     width: 100px;
 }
 
-.navbar{
+.navbar {
     display: flex;
     flex-direction: row;
 }
 
-.navbar li{
+.navbar li {
     list-style-type: none;
     margin-left: 40px;
 }
 
-.navbar li a{
+.navbar li a {
     font-size: 20px;
     text-decoration: none;
     color: #E5E8ED;
@@ -44,25 +44,30 @@
 }
 
 @media screen and (max-width: 1024px) {  
-    .logo img{
+    .logo img {
         height: 80px;
         width: 80px;
     }
     
-    .navbar li{
+    .navbar li {
         margin-left: 1em;
     }
-    .navbar li a{
+
+    .navbar li a {
         font-size: 1em;
     }
-    }
+}
 
 @media screen and (max-width: 480px) {  
-    .logo{
+    .logo {
         display: none;
     }
-    .header-view{
+
+    .header-view {
         align-items: center;
-        justify-content: center;
+    }
+
+    .navbar li a {
+        font-size: 0.85em;
     }
 }

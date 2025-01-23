@@ -1,0 +1,81 @@
+.intro-text h3 {
+    font-size: 2em;
+    font-weight: 400;
+    color: #015FE5;
+}
+
+#presentation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-cv {
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #E5E8ED;
+    color: #E5E8ED;
+    text-transform: uppercase;
+    font-size: 1em;
+    transition: all .2s ease-in;
+}
+
+.btn-cv:hover {
+    background-color: #015FE5;
+    border: 1px solid #015FE5;
+    color: #E5E8ED;
+    border-radius: 5px;
+}
+
+.avatar-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    background-color: #29313D;
+}
+
+.avatar-div img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    -webkit-filter: drop-shadow(2px 3px 6px #121212);
+    filter: drop-shadow(2px 3px 6px #121212);
+    object-fit: cover;
+    
+    filter: brightness(55%);
+    transition: all .5s;
+}
+
+.avatar-div img:hover {
+    filter: brightness(85%);
+}
+
+
+@media screen and (max-width: 1024px) {
+    .avatar-div {
+        display: none;
+    }
+
+    .intro-text h3 {
+        font-size: 1.25em;
+    }
+
+    .btn-cv {
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .intro-text h3 {
+        font-size: 1em;
+    }
+
+    .btn-cv {
+        font-size: .6em;
+    }
+}

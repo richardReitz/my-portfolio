@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../../assets/Logo-RR.png'
 import './header.css';
 
-export default function Header() {
+export default function HeaderMenu() {
     return (
         <div className='header-view'>
             <div className='logo'>

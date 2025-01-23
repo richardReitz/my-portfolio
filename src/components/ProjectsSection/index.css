@@ -1,0 +1,148 @@
+
+.project-card {
+    padding: 12px;
+    width: 45%;
+    border-radius: 8px;
+    margin-bottom: 80px;
+    transition: all .3s;
+}
+
+.project-card:hover, .project-card img:hover  {
+    background-color: rgba(255, 255, 255, .05);
+    filter: grayscale(0%);
+}
+
+.project-card h3 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    font-size: .9em;
+    margin: 20px 0 35px;
+    color: #E5E8ED;
+}
+
+.project-card img {
+    width: 100%;   
+    object-fit: contain;
+
+    filter: grayscale(85%);
+    transition: all .5s;
+}
+
+.icons-view svg {
+    margin-left: 10px;
+    color: #E5E8ED;
+    transition: all .1s ease-in;
+}
+
+.icons-view svg:hover {
+    color: #015FE5;
+}
+
+.footer-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.techs-view span {
+    font-family: 'Inconsolata';
+    color: #015FE5;
+    padding-right: 1.3em;
+    font-size: .9em;
+}
+
+.link-gh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-gh a:hover {
+    border-bottom: 1px solid #015FE5;
+}
+
+.link-gh a {
+    color: #015FE5;
+    font-size: 1em;
+}
+
+.link-gh svg {
+    color: #015FE5;
+    margin-left: 10px;
+}
+
+.cards-view {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1024px) {
+    .cards-view {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .project-card {
+        width: 100%;
+    }
+
+    .project-card h3 {
+        font-size: 1.5em;
+    }
+
+    .link-gh a {
+        font-size: .85em;
+    }
+
+    .link-gh svg {
+        width: 22px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .project-card p {
+        font-size: .7em;
+    }
+
+    .project-card h3 {
+        font-size: 1.2em;
+        margin-bottom: 12px;
+    }
+
+    .icons-view {
+        margin-top: 10px;
+    }
+    
+    .icons-view svg {
+        margin-left: 0px;
+        margin: 0 5px;
+        width: 20px;
+    }
+    
+    .footer-card {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .techs-view span {
+        padding-right: 0;
+        margin: 10px;
+        font-size: 0.75rem;
+    }
+
+    .link-gh a {
+        font-size: .7em;
+    }
+
+    .link-gh svg {
+        width: 18px;
+    }
+}
