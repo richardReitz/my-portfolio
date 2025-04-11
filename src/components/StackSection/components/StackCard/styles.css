@@ -9,11 +9,11 @@
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
     width: 140px;
+    transition: all .3s;
 }
 
 .stack-card:hover {
     transform: scale(1.1);
-    transition: all .5s;
 }
 
 .stack-card p {
