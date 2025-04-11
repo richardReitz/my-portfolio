@@ -1,33 +1,38 @@
-
 .project-card {
-    padding: 12px;
-    width: 45%;
+    width: 48%;
     border-radius: 8px;
-    margin-bottom: 80px;
     transition: all .3s;
+    background-color: rgba(255, 255, 255, .05);
+    overflow: hidden;
+}
+
+.project-card-footer {
+    padding: .5rem 1rem 1rem 1rem;
+}
+
+.project-card-footer p {
+    font-size: 1.2rem;
+}
+
+.project-card-footer span {
+    font-size: .7rem;
+    padding-right: .5rem;
+    color: #015FE5;
 }
 
 .project-card:hover, .project-card img:hover  {
-    background-color: rgba(255, 255, 255, .05);
     filter: grayscale(0%);
 }
 
 .project-card h3 {
-    font-size: 2em;
+    font-size: 1.75em;
     margin-bottom: 15px;
-}
-
-.project-card p {
-    font-size: .9em;
-    margin: 20px 0 35px;
-    color: #E5E8ED;
 }
 
 .project-card img {
     width: 100%;   
     object-fit: contain;
-
-    filter: grayscale(85%);
+    filter: grayscale(90%);
     transition: all .5s;
 }
 
@@ -48,29 +53,23 @@
     align-items: flex-end;
 }
 
-.techs-view span {
-    font-family: 'Inconsolata';
-    color: #015FE5;
-    padding-right: 1.3em;
-    font-size: .9em;
-}
-
-.link-gh {
+.repositories-link {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 3rem;
 }
 
-.link-gh a:hover {
+.repositories-link a:hover {
     border-bottom: 1px solid #015FE5;
 }
 
-.link-gh a {
+.repositories-link a {
     color: #015FE5;
     font-size: 1em;
 }
 
-.link-gh svg {
+.repositories-link svg {
     color: #015FE5;
     margin-left: 10px;
 }
@@ -78,10 +77,40 @@
 .cards-view {
     margin-top: 70px;
     display: flex;
+    row-gap: 2.5rem;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
     flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.see-more {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    margin-top: .2rem;
+}
+
+.see-more p {
+    color: #868686;
+    font-size: .75rem;
+}
+
+.see-more svg {
+    color: #868686;
+    font-size: .75rem;
+}
+
+.see-more:hover p {
+    color: #015FE5;
+    transition: all .3s;
+}
+
+.see-more:hover svg {
+    color: #015FE5;
+    transition: all .3s;
+    transform: translateX(.2rem);
 }
 
 @media screen and (max-width: 1024px) {
@@ -98,11 +127,11 @@
         font-size: 1.5em;
     }
 
-    .link-gh a {
+    .repositories-link a {
         font-size: .85em;
     }
 
-    .link-gh svg {
+    .repositories-link svg {
         width: 22px;
     }
 }
@@ -132,17 +161,11 @@
         align-items: start;
     }
 
-    .techs-view span {
-        padding-right: 0;
-        margin: 10px;
-        font-size: 0.75rem;
-    }
-
-    .link-gh a {
+    .repositories-link a {
         font-size: .7em;
     }
 
-    .link-gh svg {
+    .repositories-link svg {
         width: 18px;
     }
 }

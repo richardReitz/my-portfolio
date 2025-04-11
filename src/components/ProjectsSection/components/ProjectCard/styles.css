@@ -1,0 +1,70 @@
+.project-detail-view {
+    padding-top: .5rem;
+    border-radius: 8px;
+    transition: all .3s;
+}
+
+.project-detail-view img {
+    object-fit: contain;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.project-detail-view video {
+    width: 100%;
+    border-radius: 4px;
+}
+
+#description {
+    font-size: .75rem;
+    color: #E5E8ED;
+    font-weight: 200;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+#card-title {
+    font-size: .9rem;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: .2rem;
+    margin-top: 1rem;
+}
+
+.link-view {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin-top: .5rem;
+}
+
+.link-view a {
+    display: flex;
+    align-items: center;
+    color: #E5E8ED;
+    transition: all .1s ease-in;
+    font-size: .7em;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    padding: .3rem .6rem;
+    gap: .3rem;
+}
+
+.link-view a:hover {
+    color: #015FE5;
+    border-color: #015FE5;
+}
+
+.project-stacks {
+    margin-bottom: 1rem;
+}
+
+.link-view svg {
+    font-size: .75rem;
+}
+
+.project-stacks span {
+    color: #015FE5;
+    padding-right: 1em;
+    font-size: .75em;
+}

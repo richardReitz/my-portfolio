@@ -1,7 +1,15 @@
 .intro-text h3 {
-    font-size: 2em;
-    font-weight: 400;
+    font-size: 3em;
     color: #015FE5;
+    font-family: 'Inconsolata';
+    font-weight: 800;
+}
+
+.intro-text p {
+    font-size: 1.1em;
+    color: #ccc;
+    font-weight: 300;
+    margin-top: 4px;
 }
 
 #presentation {
@@ -37,6 +45,7 @@
     height: 420px;
     border-radius: 50%;
     background-color: #29313D;
+    flex-shrink: 0;
 }
 
 .avatar-div img {
@@ -62,7 +71,11 @@
     }
 
     .intro-text h3 {
-        font-size: 1.25em;
+        font-size: 2.5em;
+    }
+
+    .intro-text p {
+        font-size: 1em;
     }
 
     .btn-cv {
@@ -72,7 +85,11 @@
 
 @media screen and (max-width: 480px) {
     .intro-text h3 {
-        font-size: 1em;
+        font-size: 2em;
+    }
+
+    .intro-text p {
+        font-size: .8rem;
     }
 
     .btn-cv {

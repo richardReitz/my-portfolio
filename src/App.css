@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
 * {
@@ -12,9 +12,11 @@ body {
     min-height: 100vh;
     background-color: #14191F;
     color: #fff;
-    font: 16px 'Sora', sans-serif;
+    font: 1rem 'Roboto Mono', sans-serif;
     display: flex;
     justify-content: center;
+    scrollbar-width: thin;
+    scrollbar-color: #29313D #1b222b;
 }
 
 button {

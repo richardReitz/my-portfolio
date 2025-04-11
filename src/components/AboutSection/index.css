@@ -1,27 +1,13 @@
 .text-about {
-    margin-top: 50px;
+    margin-top: 3rem;
     color: #E5E8ED;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1em;
+    font-weight: 300;
 }
 
 .text-about p {
     margin-bottom: 16px;
-}
-
-.icons-about {
-    text-align: center;
-    margin-top: 40px;
-}
-
-.icons-about svg {
-    margin: 12px;
-    transition: all .2s ease-in;
-}
-
-.icons-about svg:hover{
-    color: #015FE5;
-    transform: translateY(-3px);
 }
 
 #about {
@@ -34,22 +20,10 @@
     .text-about {
         font-size: 1em;
     }
-
-    .icons-about svg {
-        margin: 8px;
-        height: 32px;
-        width: 32px;
-    }
 }
 
 @media screen and (max-width: 480px) {
     .text-about {
         font-size: 0.8em;
-    }
-
-    .icons-about svg {
-        margin: 8px;
-        height: 22px;
-        width: 22px;
     }
 }

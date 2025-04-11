@@ -1,18 +1,6 @@
 import './index.css';
 import React from 'react';
 import Title from '../Title';
-import { 
-    SiReact,
-    SiTypescript,
-    SiGraphql,
-    SiTailwindcss,
-    SiStyledcomponents,
-    SiJavascript,
-    SiSupabase,
-    SiAndroid,
-    SiKotlin,
-    SiFirebase
-} from "react-icons/si";
 
 export default function AboutSection() {
     return (
@@ -37,18 +25,6 @@ export default function AboutSection() {
                     com o objetivo de aplicar e ampliar meus conhecimentos em soluções inovadoras e contribuir para o desenvolvimento
                     de produtos.
                 </p>
-            </div>
-            <div className='icons-about'>
-                <SiJavascript size={40} title='JavaScript'/>
-                <SiTypescript size={40} title='TypeScript'/>
-                <SiReact size={40} title='React JS/Native'/>
-                <SiAndroid size={40} title='Android'/>
-                <SiKotlin size={36} title='Kotlin'/>
-                <SiGraphql size={38} title='GraphQL'/>
-                <SiStyledcomponents size={40} title='Styled-components'/>
-                <SiTailwindcss size={36} title='TailwindCSS'/>
-                <SiSupabase size={34} title='Supabase'/>
-                <SiFirebase size={34} title='Firebase'/>
             </div>
             <hr className='line'/>
         </section>

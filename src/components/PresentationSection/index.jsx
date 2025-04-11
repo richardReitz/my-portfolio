@@ -10,10 +10,10 @@ export default function PresentationSection() {
         <section id='presentation'>
             <div data-aos="fade-right" className='intro-text'>
                 <Title 
-                    title="Olá, muito prazer,"
-                    subtitle="Eu sou Richard."
+                    title="Olá, me chamo"
                 />
-                <h3>Desenvolvedor de Software</h3>
+                <h3>Richard Reitz</h3>
+                <p>Desenvolvedor de Software</p>
                 <a href={CV} download className='btn-cv'>Download CV</a>
                 <hr className='line'/>
             </div>
