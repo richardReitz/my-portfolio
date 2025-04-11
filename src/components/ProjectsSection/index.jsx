@@ -1,7 +1,8 @@
 import './index.css';
 import React from 'react';
 import Title from '../Title';
-import { FaGithub, FaArrowRight } from 'react-icons/fa';
+import { FaArrowRight } from 'react-icons/fa';
+import { FiArrowUpRight } from "react-icons/fi";
 import ProjectCard from './components/ProjectCard';
 
 import projectCEPImg from '../../assets/CEP-Finder.png'
@@ -86,10 +87,10 @@ export default function ProjectsSection() {
                 </div>
 
                 <div className='repositories-link'>
-                    <a href='https://github.com/richardReitz'>
-                        Link do GitHub com outros projetos
+                    <a href='https://github.com/richardReitz?tab=repositories'>
+                        Ver todos meus projetos
                     </a>
-                    <FaGithub size={20}/>
+                    <FiArrowUpRight />
                 </div>
                 <hr className='line'/>
             </section>

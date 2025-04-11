@@ -3,7 +3,7 @@ import React from 'react';
 import Title from '../Title';
 
 import CV from '../../assets/CV-RR.pdf';
-import avatarImg from '../../assets/rr-22-bg.png'
+import avatarImg from '../../assets/richard.jpg'
 
 export default function PresentationSection() {
     return (

@@ -57,21 +57,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 4rem;
+    gap: .5rem;
 }
 
-.repositories-link a:hover {
-    border-bottom: 1px solid #015FE5;
+.repositories-link:hover a {
+    color: #015FE5;
+}
+
+.repositories-link:hover svg {
+    color: #015FE5;
+    transform: translateX(3px) translateY(-3px);
 }
 
 .repositories-link a {
-    color: #015FE5;
-    font-size: 1em;
+    color: #868686;
+    font-size: .85rem;
+    transition: all .2s;
 }
 
 .repositories-link svg {
-    color: #015FE5;
-    margin-left: 10px;
+    color: #868686;
+    font-size: 1.2rem;
+    transition: all .2s;
 }
 
 .cards-view {
@@ -99,17 +107,17 @@
 
 .see-more svg {
     color: #868686;
-    font-size: .75rem;
+    font-size: .7rem;
+    transition: all .2s;
 }
 
 .see-more:hover p {
     color: #015FE5;
-    transition: all .3s;
+    transition: all .2s;
 }
 
 .see-more:hover svg {
     color: #015FE5;
-    transition: all .3s;
     transform: translateX(.2rem);
 }
 

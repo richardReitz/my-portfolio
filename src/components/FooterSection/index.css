@@ -13,12 +13,24 @@
 
 .footer-icons svg {
     margin-left: 25px;
-    color: #E5E8ED;
+    color: #8f8f8f;
     transition: all .2s;
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.footer svg {
+    color: #015FE5;
 }
 
 .footer span {
     font-family: 'Inconsolata';
+    color: #8f8f8f;
+    font-size: .8rem;
 }
 
 .footer-icons svg:hover {
