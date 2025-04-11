@@ -13,7 +13,7 @@ export default function PresentationSection() {
                     title="Olá, me chamo"
                 />
                 <h3>Richard Reitz</h3>
-                <p>Desenvolvedor de Software</p>
+                <p>Desenvolvedor Mobile & Frontend</p>
                 <a href={CV} download className='btn-cv'>Download CV</a>
                 <hr className='line'/>
             </div>

@@ -4,19 +4,20 @@ import Title from '../Title';
 import { FaArrowRight } from 'react-icons/fa';
 import { FiArrowUpRight } from "react-icons/fi";
 import ProjectCard from './components/ProjectCard';
+import ProjectModal from './components/ProjectModal';
 
 import projectCEPImg from '../../assets/CEP-Finder.png'
 import projectCallImg from '../../assets/SC-3.png'
 import projectMoneyAppImg from '../../assets/moneyApp.png';
 import projectBuccaneerImg from '../../assets/projeto-buccaneer.png';
-import ProjectModal from './components/ProjectModal';
+import buccaneerVideo from '../../assets/videos/buccaneervideo.mp4';
 
 const projects = [
     { 
         name: 'Buccaneer Burger',
         stack: [ 'Node.js', 'PostgreSQL', 'ReactJs', 'React Native', 'Typescript'],
         image: projectBuccaneerImg,
-        video: '',
+        video: buccaneerVideo,
         description: 'Sistema interno de gerenciamento de pedidos desenvolvido para uma hamburgueria, com foco em agilidade no atendimento e organização do fluxo operacional. O projeto conta com uma aplicação mobile, utilizada pelos atendentes para abertura e envio de pedidos diretamente das mesas para a cozinha (parte web). A aplicação web é responsável por receber e finalizar os pedidos, além de permitir a gestão completa do cardápio, incluindo a criação de produtos e itens. Todo o funcionamento é sustentado por um backend robusto, que centraliza as regras de negócio e os serviços da aplicação.',
         repo: [
             { name: 'Backend', link: 'https://github.com/richardReitz/buccaneer-burger-service' },
