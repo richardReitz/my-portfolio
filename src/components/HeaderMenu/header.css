@@ -23,7 +23,7 @@
 }
 
 .navbar li a {
-    font-size: 20px;
+    font-size: 1rem;
     text-decoration: none;
     color: #E5E8ED;
     transition: all .4s ease-in-out;
@@ -54,7 +54,7 @@
     }
 
     .navbar li a {
-        font-size: 1em;
+        font-size: .85em;
     }
 }
 
@@ -68,6 +68,6 @@
     }
 
     .navbar li a {
-        font-size: 0.85em;
+        font-size: 0.8em;
     }
 }
