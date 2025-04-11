@@ -10,7 +10,9 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: #14191F;
+    /* background-color: #14191F; */
+    background: linear-gradient(to bottom, #14191F, #1e2733, #0f141a);
+
     color: #fff;
     font: 1rem 'Roboto Mono', sans-serif;
     display: flex;

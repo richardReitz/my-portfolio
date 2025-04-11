@@ -19,7 +19,7 @@ import {
 export default function StackSection() {
     return (
         <section id='stack' data-aos="fade-right">
-            <Title title="Stack"/>
+            <Title title="Habilidades Técnicas"/>
        
             <div className='stack-view'>
                 <StackCard label="JavaScript" icon={<SiJavascript size={42} title='JavaScript'/>}/>

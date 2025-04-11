@@ -4,6 +4,7 @@
     transition: all .3s;
     background-color: rgba(255, 255, 255, .05);
     overflow: hidden;
+    box-shadow: 0 4px 10px rgba(20, 25, 31, 0.6);
 }
 
 .project-card-footer {
