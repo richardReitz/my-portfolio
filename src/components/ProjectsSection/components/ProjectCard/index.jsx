@@ -28,12 +28,14 @@ export default function ProjectCard({ project, onClick }) {
                     <div>
                         <p id='card-title'>Links</p>
                         <div className='link-view'>
-                            {project.repo.map((item) => 
+                            {project.repo.length ? project.repo.map((item) => 
                                 <a key={item.name} href={item.link}>
                                     <FiGithub />
                                     {item.name}
                                 </a>
-                            )}
+                            ) : 
+                                <span>Em breve nas lojas</span>
+                            }
                         </div>
                     </div>
                 </div>

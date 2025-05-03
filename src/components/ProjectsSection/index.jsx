@@ -10,9 +10,21 @@ import projectCEPImg from '../../assets/CEP-Finder.png'
 import projectCallImg from '../../assets/SC-3.png'
 import projectMoneyAppImg from '../../assets/moneyApp.png';
 import projectBuccaneerImg from '../../assets/projeto-buccaneer.png';
+import projectMeuCapital from '../../assets/meucapitalapp.png';
+import projectInfusion from '../../assets/infusion.png';
+
 import buccaneerVideo from '../../assets/videos/buccaneervideo.mp4';
+import meuCapitalVideo from '../../assets/videos/meucapitalapp.mp4';
 
 const projects = [
+    { 
+        name: 'MeuCapital App',
+        stack: [ 'Kotlin', 'Firebase'],
+        image: projectMeuCapital,
+        video: meuCapitalVideo,
+        description: 'App desenvolvido para substituir uma planilha manual usada no controle da evolução do patrimônio financeiro. Permite o registro mensal de saldos em diferentes bancos e corretoras, gerando gráficos que mostram o crescimento ao longo do tempo.',
+        repo: []
+    },
     { 
         name: 'Buccaneer Burger',
         stack: [ 'Node.js', 'PostgreSQL', 'ReactJs', 'React Native', 'Typescript'],
@@ -50,6 +62,16 @@ const projects = [
         description: 'Sistema de chamados com controle de rotas autenticadas. Construído com React JS, utilizando Firebase para autenticação e banco de dados do sistema.',
         repo: [
             { name: 'Repositório', link: 'https://github.com/richardReitz/app-money-react-native' }
+        ]
+    },
+    { 
+        name: 'Projeto Infusion',
+        stack: [ 'JavaScript' ],
+        image: projectInfusion,
+        description: 'Página web desenvolvida no curso de Desenvolvimento Web Front-end. Desenvolvida com o conceito mobile first utilizando HTML, CSS e Javascript para sua criação.',
+        repo: [
+            { name: 'Repositório', link: 'https://github.com/richardReitz/projeto-infusion-curso-web' },
+            { name: 'Site', link: 'https://infusion.vercel.app' }
         ]
     }
 ]

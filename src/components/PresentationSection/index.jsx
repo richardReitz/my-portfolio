@@ -2,7 +2,7 @@ import './index.css';
 import React from 'react';
 import Title from '../Title';
 
-import CV from '../../assets/CV-RR.pdf';
+import CVRR from '../../assets/CV-RichardR-25.pdf';
 import avatarImg from '../../assets/richard.jpg'
 
 export default function PresentationSection() {
@@ -14,7 +14,7 @@ export default function PresentationSection() {
                 />
                 <h3>Richard Reitz</h3>
                 <p>Desenvolvedor Mobile & Frontend</p>
-                <a href={CV} download className='btn-cv'>Download CV</a>
+                <a href={CVRR} download className='btn-cv'>Download CV</a>
                 <hr className='line'/>
             </div>
             <div data-aos="fade-left" className='avatar-div'>
