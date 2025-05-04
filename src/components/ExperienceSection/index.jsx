@@ -19,7 +19,7 @@ const works = [
             'Desenvolvimento de Cloud Functions e Views para otimização de consultas com Supabase',
             'Gerenciamento de dados em tempo real',
         ],
-        stack: [ 'TypeScript', 'ReactJS', 'Supabase', 'SQL', 'TailwindCSS' ]
+        stack: [ 'TypeScript', 'ReactJS', 'Supabase', 'SQL', 'Zustand', 'TailwindCSS' ]
     },
     { 
         name: 'Desenvolvedor Mobile - Frontend',
