@@ -94,7 +94,7 @@ export default function ProjectsSection() {
         <>
             <section id='projects'>
                 <Title title="Projetos"/>
-                <div className='cards-view' data-aos="fade-left">
+                <div className='cards-view' data-aos="fade-up">
                     {projects.map((item) => 
                         <div className='project-card' onClick={() => seeProjectDetail(item)}>
                             <img src={item.image} alt='image-project'/>

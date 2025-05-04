@@ -50,7 +50,7 @@ export default function ExperienceSection() {
     };
   
     return (
-        <section id='experience'>
+        <section id='experience' data-aos="fade-left">
             <Title title="Experiências"/>
             <div className='experiences-wrapper'>
                 {works.map((work, index) => (

@@ -7,7 +7,7 @@ import { LuMail } from "react-icons/lu";
 
 export default function ContactSection() {
     return (
-        <section id='contact' data-aos="fade-right">
+        <section id='contact' data-aos="fade-down">
             <Title title="Contatos" />
 
             <section className='contact-cards'>
