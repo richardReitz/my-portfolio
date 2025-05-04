@@ -34,7 +34,8 @@
     align-items: center;
     gap: .5rem;
 }
-.company-view  p {
+
+.company-view p {
     font-size: .85rem;
 }
 
@@ -51,6 +52,7 @@
     display: flex;
     align-items: center;
     gap: .5rem;
+    flex-wrap: wrap;
 }
 
 .exp-items-view {
@@ -80,6 +82,30 @@
 }
 
 .accordion-item.active .accordion-content {
-    max-height: 500px;
+    max-height: 1200px;
     margin-top: 1rem;
+}
+
+@media screen and (max-width: 640px) {
+    .accordion-title {
+        font-size: .85rem;
+    }
+
+    .stack-item {
+        font-size: .6em;
+        padding: .3rem .5rem;
+        border-radius: 1rem;
+    }
+
+    .experince-description {
+        font-size: .7rem;
+    }
+
+    .company-view p {
+        font-size: .7rem;
+    }
+    
+    .exp-items-view p {
+        font-size: .6rem;
+    }
 }
