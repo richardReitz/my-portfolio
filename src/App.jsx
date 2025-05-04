@@ -9,6 +9,7 @@ import PresentationSection from './components/PresentationSection';
 import ContactSection from './components/ContactSection';
 import FooterSection from './components/FooterSection';
 import StackSection from './components/StackSection';
+import ExperienceSection from './components/ExperienceSection';
 
 function App() {
   
@@ -25,6 +26,7 @@ function App() {
         <PresentationSection />
         <AboutSection />
         <StackSection />
+        <ExperienceSection />
         <ProjectsSection />
         <ContactSection />
         <FooterSection />

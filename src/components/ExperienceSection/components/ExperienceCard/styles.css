@@ -1,0 +1,85 @@
+.accordion-toggle {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion-item {
+    border: 1px solid #015FE5;
+    border-radius: .5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgba(255, 255, 255, .05);
+}
+
+.accordion-title {
+    font-size: 1rem;
+    color: white;
+    font-weight: 800;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, margin-top 0.3s ease;
+}
+
+.accordion-content svg {
+    color: #015FE5;
+}
+
+.company-view {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.company-view  p {
+    font-size: .85rem;
+}
+
+.experince-description {
+    margin-top: .8rem;
+    color: #afafaf;
+    font-size: .8em;
+    font-weight: 300;
+    max-width: 90%;
+}
+
+.exp-stack-view {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.exp-items-view {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+.exp-items-view p {
+    color: #fff;
+    font-size: .8em;
+    font-weight: 300;
+}
+
+.stack-item {
+    color: #fff;
+    background-color: #015FE5;
+    font-size: .7em;
+    padding: .5rem .7rem;
+    border-radius: 1rem;
+}
+
+.experience-date {
+    color: #afafaf;
+    font-size: .8em;
+}
+
+.accordion-item.active .accordion-content {
+    max-height: 500px;
+    margin-top: 1rem;
+}
